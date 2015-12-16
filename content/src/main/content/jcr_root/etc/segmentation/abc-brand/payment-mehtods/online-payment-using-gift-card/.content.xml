@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-12-14T16:39:35.793+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/personalization/templates/segment"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Online Payment Using Gift Card"
+        sling:resourceType="cq/personalization/components/segmentpage">
+        <traits
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="cq/personalization/components/traits/logic/and">
+            <andpar
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys">
+                <generic
+                    jcr:created="{Date}2015-12-14T16:20:32.818+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2015-12-14T16:39:09.674+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="cq/personalization/components/traits/generic"
+                    jsObject="customstore"
+                    name="ONLINEPAYMENT/value"
+                    operator="equals"
+                    value="true"/>
+                <generic_0
+                    jcr:created="{Date}2015-12-14T16:20:42.018+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2015-12-14T16:39:35.791+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="cq/personalization/components/traits/generic"
+                    jsObject="customstore"
+                    name="GIFTCARD/value"
+                    operator="equals"
+                    value="true"/>
+            </andpar>
+        </traits>
+    </jcr:content>
+</jcr:root>
