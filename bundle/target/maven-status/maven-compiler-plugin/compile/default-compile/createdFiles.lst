@@ -1,3 +1,4 @@
+com/clientcontext/customstore/servlets/PaymentStoreDataServlet.class
 com/clientcontext/customstore/package-info.class
 com/clientcontext/customstore/impl/filters/LoggingFilter.class
 com/clientcontext/customstore/HelloService.class

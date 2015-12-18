@@ -28,4 +28,16 @@
         </property>
         <property name="service.pid" value="com.clientcontext.customstore.servlets.DummyDataServlet"/>
     </scr:component>
+    <scr:component enabled="true" immediate="true" name="com.clientcontext.customstore.servlets.PaymentStoreDataServlet">
+        <implementation class="com.clientcontext.customstore.servlets.PaymentStoreDataServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.paths" value="/bin/clientcontext/paymentstore"/>
+        <property name="sling.servlet.methods">
+            GET
+            POST
+        </property>
+        <property name="service.pid" value="com.clientcontext.customstore.servlets.PaymentStoreDataServlet"/>
+    </scr:component>
 </components>

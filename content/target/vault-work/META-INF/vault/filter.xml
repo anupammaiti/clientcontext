@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/apps/customstore" />
-    <filter root="/apps/location-weather-personalization" />
-    <filter root="/etc/segmentation/abc-brand" />
-    <filter root="/content/abc-brand" />
-    <filter root="/content/campaigns/abc-brand" />
+    <filter root="/apps/payment-store" />
 </workspaceFilter>
