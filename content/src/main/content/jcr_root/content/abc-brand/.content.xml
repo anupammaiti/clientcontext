@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-12-09T16:52:06.541+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/ttnd/templates/base-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="ABC Brand"
+        sling:resourceType="ttnd/components/page/base-page"/>
+    <test/>
+    <personalization-examples/>
+    <par
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="foundation/components/parsys">
+        <location_personaliza
+            jcr:created="{Date}2015-12-13T19:31:17.996+05:30"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2015-12-13T19:31:17.996+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="customstore/components/location-personalization"/>
+        <location_personaliza_0
+            jcr:created="{Date}2015-12-14T01:40:05.178+05:30"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2015-12-14T01:40:05.178+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="location-weather-personalization/components/location-personalization"/>
+    </par>
+    <_x0031_231231/>
+    <personalization-example/>
+</jcr:root>

@@ -33,16 +33,22 @@ if (CQ_Analytics.PaymentStoreMgr ) {
 
 
         // TODO : Get current store's JSON data and append checkbox for each object by calling the templateRenderer() method
-
+        var data=CQ_Analytics.PaymentStoreMgr.data;
+        if(data){
+            $CQ("#"+divId).append(templateRenderer(data.ONLINEPAYMENT));
+        }
 
         $CQ(".paymentstore-input").change(function(){
             console.log("Change In Input Detected")
             var value = false;
 
             //TODO: Get store's data ONLINEPAYMENT value, toggle the value and set the new value to the checkbox and again back to store's data
+            var data = CQ_Analytics.PaymentStoreMgr.data;
 
-
-            //$CQ("#paymentstore-input-ONLINEPAYMENT").prop('checked', newValue);
+            var currValue = data.ONLINEPAYMENT;
+            var newValue = (currValue === "true")?false:true;
+            $CQ("#paymentstore-input-ONLINEPAYMENT").prop('checked', newValue);
+            CQ_Analytics.PaymentStoreMgr.data.ONLINEPAYMENT=""+newValue;
         });         
 
     }

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-12-14T17:35:55.976+05:30"
+        cq:lastModifiedBy="admin"
+        cq:segments="[/etc/segmentation/abc-brand/payment-mehtods/online-payment-using-credit-card]"
+        cq:template="/libs/cq/personalization/templates/teaser"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Online Payment Using Credit Card"
+        sling:resourceType="cq/personalization/components/teaserpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <start
+                jcr:created="{Date}2015-12-14T17:35:45.368+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-12-14T17:35:45.368+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/form/start"
+                action="/content/usergenerated/campaigns/abc-brand/payment-option-campaign/online-payment-using-credit-card/cq-gen1450094745370/"
+                actionType="foundation/components/form/actions/store"
+                formid="_content_campaigns_abc-brand_payment-option-campaign_online-payment-using-credit-card_jcr_content_par_start"/>
+            <creditcard
+                jcr:created="{Date}2015-12-14T17:35:55.973+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-12-14T17:35:55.973+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/creditcard"
+                ccTypes="[mc=MasterCard,visa=Visa,amex=American Express]"
+                required="[credit-card-type,primary-account-number,expiration-date]"/>
+            <form_end_1450094745377
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/form/end"/>
+        </par>
+        <image
+            jcr:lastModified="{Date}2015-12-14T17:29:18.114+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>
