@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-12-14T17:25:31.260+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/mcm/templates/brand"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="ABC Brand"
+        sling:resourceType="mcm/components/brandpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys"/>
+    </jcr:content>
+    <payment-option-campaign/>
+    <location-weather-campaign/>
+</jcr:root>

@@ -1,0 +1,6 @@
+#surefire_0
+#Fri Jan 08 11:46:37 IST 2016
+user.dir=/media/ttnd/Data/AEM Maven Project/ClientContextPersonalization/clientcontext/bundle
+crx.port=5502
+localRepository=/home/ttnd/.m2/repository
+basedir=/media/ttnd/Data/AEM Maven Project/ClientContextPersonalization/clientcontext/bundle

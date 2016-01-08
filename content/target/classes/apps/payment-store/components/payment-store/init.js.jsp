@@ -1,3 +1,6 @@
+<%@ page session="false" contentType="text/javascript" %>
 <%@ include file="/libs/foundation/global.jsp" %>
 
-<!--TODO: Initialize the session store -->
+if (CQ_Analytics.PaymentStoreMgr) {
+	CQ_Analytics.PaymentStoreMgr.init();
+}
